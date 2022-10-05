@@ -34,7 +34,7 @@ pprint(efs.to_dict())
 Clone the project
 
 ```bash
-  git clone https://YashMakan/easy_flask_swagger
+  git clone https://github.com/YashMakan/easy-flask-swagger
 ```
 
 Go to the project directory
