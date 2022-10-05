@@ -16,12 +16,16 @@ Easy Flask Swagger - Creating flask swagger documentation in few minutes with le
 ```
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+```python
+from easy_flask_swagger import EasyFlaskSwagger
+efs = EasyFlaskSwagger("My Backend Documentation")
+efs.setPaths({SwaggerTags.AUTHENTICATION: [signup]})
+efs.setSchemas([User])
+efs.setDescriptions({
+  SwaggerTags.AUTHENTICATION: 'For user authentication'
+})
+pprint(efs.to_dict())
+# And that's it 😁
 ```
 
 
