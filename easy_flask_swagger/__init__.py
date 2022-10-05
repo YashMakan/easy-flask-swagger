@@ -1,0 +1,1 @@
+from easy_flask_swagger.easy_flask_swagger import EasyFlaskSwagger
