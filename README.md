@@ -49,10 +49,10 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
-Run the test/main.py file
+Run the tests/test.py file
 
 ```bash
-  python test/main.py
+  python tests/test.py
 ```
 
 
